@@ -1,14 +1,14 @@
 //
-//  RetroPopCodeApp.swift
-//  RetroPopCode
+//  CaoculadoraApp.swift
+//  Caoculadora
 //
-//  Created by Lívia Trindade on 07/05/24.
+//  Created by Lívia Trindade on 08/05/24.
 //
 
 import SwiftUI
 
 @main
-struct RetroPopCodeApp: App {
+struct CaoculadoraApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

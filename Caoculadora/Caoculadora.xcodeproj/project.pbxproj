@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33660AB82BEA6E4100532AF2 /* RetroPopCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33660AB72BEA6E4100532AF2 /* RetroPopCodeApp.swift */; };
-		33660ABA2BEA6E4100532AF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33660AB92BEA6E4100532AF2 /* ContentView.swift */; };
-		33660ABC2BEA6E4200532AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33660ABB2BEA6E4200532AF2 /* Assets.xcassets */; };
-		33660ABF2BEA6E4200532AF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33660ABE2BEA6E4200532AF2 /* Preview Assets.xcassets */; };
+		33AF769C2BEB9E5400B651C5 /* CaoculadoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF769B2BEB9E5400B651C5 /* CaoculadoraApp.swift */; };
+		33AF769E2BEB9E5400B651C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF769D2BEB9E5400B651C5 /* ContentView.swift */; };
+		33AF76A02BEB9E5500B651C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AF769F2BEB9E5500B651C5 /* Assets.xcassets */; };
+		33AF76A32BEB9E5500B651C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AF76A22BEB9E5500B651C5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33660AB42BEA6E4100532AF2 /* RetroPopCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroPopCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33660AB72BEA6E4100532AF2 /* RetroPopCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPopCodeApp.swift; sourceTree = "<group>"; };
-		33660AB92BEA6E4100532AF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		33660ABB2BEA6E4200532AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33660ABE2BEA6E4200532AF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33AF76982BEB9E5400B651C5 /* Caoculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caoculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AF769B2BEB9E5400B651C5 /* CaoculadoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaoculadoraApp.swift; sourceTree = "<group>"; };
+		33AF769D2BEB9E5400B651C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33AF769F2BEB9E5500B651C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33AF76A22BEB9E5500B651C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33660AB12BEA6E4100532AF2 /* Frameworks */ = {
+		33AF76952BEB9E5400B651C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33660AAB2BEA6E4100532AF2 = {
+		33AF768F2BEB9E5400B651C5 = {
 			isa = PBXGroup;
 			children = (
-				33660AB62BEA6E4100532AF2 /* RetroPopCode */,
-				33660AB52BEA6E4100532AF2 /* Products */,
+				33AF769A2BEB9E5400B651C5 /* Caoculadora */,
+				33AF76992BEB9E5400B651C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		33660AB52BEA6E4100532AF2 /* Products */ = {
+		33AF76992BEB9E5400B651C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33660AB42BEA6E4100532AF2 /* RetroPopCode.app */,
+				33AF76982BEB9E5400B651C5 /* Caoculadora.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33660AB62BEA6E4100532AF2 /* RetroPopCode */ = {
+		33AF769A2BEB9E5400B651C5 /* Caoculadora */ = {
 			isa = PBXGroup;
 			children = (
-				33660AB72BEA6E4100532AF2 /* RetroPopCodeApp.swift */,
-				33660AB92BEA6E4100532AF2 /* ContentView.swift */,
-				33660ABB2BEA6E4200532AF2 /* Assets.xcassets */,
-				33660ABD2BEA6E4200532AF2 /* Preview Content */,
+				33AF769B2BEB9E5400B651C5 /* CaoculadoraApp.swift */,
+				33AF769D2BEB9E5400B651C5 /* ContentView.swift */,
+				33AF769F2BEB9E5500B651C5 /* Assets.xcassets */,
+				33AF76A12BEB9E5500B651C5 /* Preview Content */,
 			);
-			path = RetroPopCode;
+			path = Caoculadora;
 			sourceTree = "<group>";
 		};
-		33660ABD2BEA6E4200532AF2 /* Preview Content */ = {
+		33AF76A12BEB9E5500B651C5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				33660ABE2BEA6E4200532AF2 /* Preview Assets.xcassets */,
+				33AF76A22BEB9E5500B651C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33660AB32BEA6E4100532AF2 /* RetroPopCode */ = {
+		33AF76972BEB9E5400B651C5 /* Caoculadora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33660AC22BEA6E4200532AF2 /* Build configuration list for PBXNativeTarget "RetroPopCode" */;
+			buildConfigurationList = 33AF76A62BEB9E5500B651C5 /* Build configuration list for PBXNativeTarget "Caoculadora" */;
 			buildPhases = (
-				33660AB02BEA6E4100532AF2 /* Sources */,
-				33660AB12BEA6E4100532AF2 /* Frameworks */,
-				33660AB22BEA6E4100532AF2 /* Resources */,
+				33AF76942BEB9E5400B651C5 /* Sources */,
+				33AF76952BEB9E5400B651C5 /* Frameworks */,
+				33AF76962BEB9E5400B651C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RetroPopCode;
-			productName = RetroPopCode;
-			productReference = 33660AB42BEA6E4100532AF2 /* RetroPopCode.app */;
+			name = Caoculadora;
+			productName = Caoculadora;
+			productReference = 33AF76982BEB9E5400B651C5 /* Caoculadora.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33660AAC2BEA6E4100532AF2 /* Project object */ = {
+		33AF76902BEB9E5400B651C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					33660AB32BEA6E4100532AF2 = {
+					33AF76972BEB9E5400B651C5 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 33660AAF2BEA6E4100532AF2 /* Build configuration list for PBXProject "RetroPopCode" */;
+			buildConfigurationList = 33AF76932BEB9E5400B651C5 /* Build configuration list for PBXProject "Caoculadora" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 33660AAB2BEA6E4100532AF2;
-			productRefGroup = 33660AB52BEA6E4100532AF2 /* Products */;
+			mainGroup = 33AF768F2BEB9E5400B651C5;
+			productRefGroup = 33AF76992BEB9E5400B651C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33660AB32BEA6E4100532AF2 /* RetroPopCode */,
+				33AF76972BEB9E5400B651C5 /* Caoculadora */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33660AB22BEA6E4100532AF2 /* Resources */ = {
+		33AF76962BEB9E5400B651C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33660ABF2BEA6E4200532AF2 /* Preview Assets.xcassets in Resources */,
-				33660ABC2BEA6E4200532AF2 /* Assets.xcassets in Resources */,
+				33AF76A32BEB9E5500B651C5 /* Preview Assets.xcassets in Resources */,
+				33AF76A02BEB9E5500B651C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33660AB02BEA6E4100532AF2 /* Sources */ = {
+		33AF76942BEB9E5400B651C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33660ABA2BEA6E4100532AF2 /* ContentView.swift in Sources */,
-				33660AB82BEA6E4100532AF2 /* RetroPopCodeApp.swift in Sources */,
+				33AF769E2BEB9E5400B651C5 /* ContentView.swift in Sources */,
+				33AF769C2BEB9E5400B651C5 /* CaoculadoraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		33660AC02BEA6E4200532AF2 /* Debug */ = {
+		33AF76A42BEB9E5500B651C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		33660AC12BEA6E4200532AF2 /* Release */ = {
+		33AF76A52BEB9E5500B651C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +264,14 @@
 			};
 			name = Release;
 		};
-		33660AC32BEA6E4200532AF2 /* Debug */ = {
+		33AF76A72BEB9E5500B651C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RetroPopCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Caoculadora/Preview Content\"";
 				DEVELOPMENT_TEAM = 749GUA3P8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.livtrndd.RetroPopCode;
+				PRODUCT_BUNDLE_IDENTIFIER = br.livtrndd.Caoculadora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		33660AC42BEA6E4200532AF2 /* Release */ = {
+		33AF76A82BEB9E5500B651C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RetroPopCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Caoculadora/Preview Content\"";
 				DEVELOPMENT_TEAM = 749GUA3P8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.livtrndd.RetroPopCode;
+				PRODUCT_BUNDLE_IDENTIFIER = br.livtrndd.Caoculadora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33660AAF2BEA6E4100532AF2 /* Build configuration list for PBXProject "RetroPopCode" */ = {
+		33AF76932BEB9E5400B651C5 /* Build configuration list for PBXProject "Caoculadora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33660AC02BEA6E4200532AF2 /* Debug */,
-				33660AC12BEA6E4200532AF2 /* Release */,
+				33AF76A42BEB9E5500B651C5 /* Debug */,
+				33AF76A52BEB9E5500B651C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33660AC22BEA6E4200532AF2 /* Build configuration list for PBXNativeTarget "RetroPopCode" */ = {
+		33AF76A62BEB9E5500B651C5 /* Build configuration list for PBXNativeTarget "Caoculadora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33660AC32BEA6E4200532AF2 /* Debug */,
-				33660AC42BEA6E4200532AF2 /* Release */,
+				33AF76A72BEB9E5500B651C5 /* Debug */,
+				33AF76A82BEB9E5500B651C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33660AAC2BEA6E4100532AF2 /* Project object */;
+	rootObject = 33AF76902BEB9E5400B651C5 /* Project object */;
 }
