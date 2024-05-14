@@ -14,39 +14,39 @@ struct ContentView: View {
     @State var result: Int?
     
     let portes = ["Pequeno", "Médio", "Grande"]
-    @State var porteSelecionado = "Pequeno"
+    
     @State var porteSelected = Porte.pequeno
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 20.0) 
-            {
+        VStack(alignment: .leading, spacing: 20.0)
+        {
             Text("Qual a idade do seu cão?")
-                    .font(.header5)
+                .font(.header5)
             Text ("Anos")
-                    .font(.body1)
+                .font(.body1)
             TextField(
                 "Quantos anos completos tem seu cão?",
                 value: $years,
                 format: .number
             )
             Text ("Meses")
-                    .font(.body1)
+                .font(.body1)
             TextField(
                 "E quantos meses além disso ele tem?",
                 value: $months,
                 format: .number
             )
             Text("Porte")
-                    .font(.body1)
+                .font(.body1)
             
             // aqui vai o segmented control
             Picker("Portes", selection: $porteSelected)
-                {
-                    ForEach(Porte.allCases, id: \.self) { porte in
-                        Text(porte.rawValue.capitalized)
+            {
+                ForEach(Porte.allCases, id: \.self) { porte in
+                    Text(porte.rawValue.capitalized)
                 }
             }
-                .pickerStyle(.segmented)
+            .pickerStyle(.segmented)
             
             Divider()
             
@@ -62,20 +62,20 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(maxHeight: 150)
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                .shadow(radius: 5)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    .shadow(radius: 5)
             }
             
             Spacer()
-        
+            
             
             Button("Cãocular", action: processYears) // puxando a função criada, antes o que estava dentro das chaves, estava no lugar do action
-            .frame(maxWidth: .infinity)
-            .frame(height: 50)
-            .background(.indigo)
-            .foregroundStyle(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-            .font(.body1)
+                .frame(maxWidth: .infinity)
+                .frame(height: 50)
+                .background(.indigo)
+                .foregroundStyle(.white)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+                .font(.body1)
         }
         .textFieldStyle(.roundedBorder)
         .keyboardType(.numberPad)
@@ -95,23 +95,11 @@ struct ContentView: View {
             return
         }
         
-        let multiplicador: Int
-        switch porteSelected {
-        case .pequeno:
-            multiplicador = 6
-        case .medio:
-            multiplicador = 7
-        case .grande:
-            multiplicador = 8
-
-        }
-        
-        // o resultado vai ser os anos * 7 + a fração do ano em meses * 7
-        result = years * multiplicador + months * multiplicador / 12
+        result = porteSelected.calcularIdade(deAnos: years, eMeses: months)
     }
 }
-
-#Preview {
-    ContentView()
-}
-
+    
+    #Preview {
+        ContentView()
+    }
+    
