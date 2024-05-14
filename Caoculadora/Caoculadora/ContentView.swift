@@ -16,6 +16,8 @@ struct ContentView: View {
     let portes = ["Pequeno", "Médio", "Grande"]
     
     @State var porteSelected = Porte.pequeno
+    @State var failedInput = false
+    let tituloPreencherCampos = "Preencha os campos para cãocular!"
     
     var body: some View {
         NavigationStack {
@@ -57,8 +59,11 @@ struct ContentView: View {
                     if let result {
                         Text("Seu cachorro tem, em idade humana...")
                             .font(.body1)
+                            .frame(maxWidth: .infinity)
                         Text("\(result) anos")
-                            .font(.body1)
+                            .font(.display)
+                            .frame(maxWidth: .infinity)
+                            .contentTransition(.numericText())
                     } else {
                         Image(ImageResource.clarinha)
                             .resizable()
@@ -83,10 +88,14 @@ struct ContentView: View {
                 .keyboardType(.numberPad)
                 .padding()
                 .containerRelativeFrame(.vertical)
+                // .animation(.easeInOut.speed(0.5), value: result)
             }
+            .alert(tituloPreencherCampos, isPresented: $failedInput, actions: {
+                Button("OK", role: .cancel, action: {})
+            })
             .navigationTitle("Cãoculadora")
             .scrollDismissesKeyboard(.immediately)
-            .toolbarBackground(.indigo, for: .navigationBar)
+            .toolbarBackground(.indigo600, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbarColorScheme(.dark, for: .navigationBar)
         }
@@ -103,6 +112,7 @@ extension ContentView {
         
         guard let years, let months else {
             print("Campos não preenchidos")
+            failedInput = true
             return
         }
         
@@ -111,7 +121,9 @@ extension ContentView {
             return
         }
         
-        result = porteSelected.calcularIdade(deAnos: years, eMeses: months)
+        withAnimation(.easeInOut.speed(0.5)) {
+            result = porteSelected.calcularIdade(deAnos: years, eMeses: months)
+        }
     }
 }
     
