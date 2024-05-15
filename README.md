@@ -1,5 +1,5 @@
-# RetroPop
-Construção para o app do desafio da Cãoculadora da ADA
+# Cãoculadora
+Construção para o app do desafio da Cãoculadora da ADA.
 ---
 # Alterações 
 Começamos apenas alterando o README.md
